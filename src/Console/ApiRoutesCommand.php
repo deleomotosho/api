@@ -4,7 +4,7 @@ namespace Dingo\Api\Console;
 
 use Dingo\Api\Routing\Router;
 use Illuminate\Routing\Route;
-use Illuminate\Foundation\Console\RoutesCommand;
+use Illuminate\Console\Command as RoutesCommand;
 use Symfony\Component\Console\Input\InputOption;
 
 class ApiRoutesCommand extends RoutesCommand
